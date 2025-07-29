@@ -1,7 +1,5 @@
 # Operating System and System Programming Lab
 ---
----
-
 ## 1. Scheduling Algorithms
 
 Decide which ready process gets the CPU next.
@@ -61,7 +59,6 @@ Ensure processes don’t get stuck waiting forever for resources.
 1. **Detection**: Periodically build a resource-allocation graph or run an algorithm to find cycles.
 2. **Recovery**: Break the cycle by aborting or rolling back one or more processes, or forcibly preempting resources. | • No upfront restrictions on resource requests | • Detection adds runtime overhead<br>• Recovery can be disruptive (process termination or complex rollback) |
 
----
 ---
 <div align="center">
   <img width="600" height="273" alt="image" src="https://github.com/user-attachments/assets/4e9d34e6-c9f9-452a-b944-3a93db8bfdf6" />
