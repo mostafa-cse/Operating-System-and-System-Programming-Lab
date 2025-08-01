@@ -60,6 +60,16 @@ Ensure processes don’t get stuck waiting forever for resources.
 2. **Recovery**: Break the cycle by aborting or rolling back one or more processes, or forcibly preempting resources. | • No upfront restrictions on resource requests | • Detection adds runtime overhead<br>• Recovery can be disruptive (process termination or complex rollback) |
 
 ---
+
+## ⏱️ 5. Shot Time Preparation
+
+| Topic                     | Resource Link                                                                                      |
+|--------------------------|----------------------------------------------------------------------------------------------------|
+| For On-spot Interview    | [Lecture Notes (Northeastern University)](https://www.ccs.neu.edu/home/lieber/com3336/f99/lectures/l1/l1.one.pdf) |
+| For Brief Review         | [GeeksforGeeks - Operating Systems](https://www.geeksforgeeks.org/operating-systems/operating-systems)          |
+
+
+---
 <div align="center">
   <img width="600" height="273" alt="image" src="https://github.com/user-attachments/assets/4e9d34e6-c9f9-452a-b944-3a93db8bfdf6" />
 </div>
