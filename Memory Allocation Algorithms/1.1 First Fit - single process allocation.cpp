@@ -38,7 +38,6 @@ signed main() {
     }
     return 0;
 }
-
 /*
 Testcase :
 3 3
@@ -51,5 +50,4 @@ Process No.	Process Size	Block no.
    1		  10		1
    2		  6		3
    3		  9		Not Allocated
-
 */
