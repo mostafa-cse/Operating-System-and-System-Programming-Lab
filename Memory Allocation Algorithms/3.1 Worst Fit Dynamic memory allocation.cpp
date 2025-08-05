@@ -30,7 +30,7 @@ int main()  {
 
         if (wstIdx != -1) {
             allocate[i] = wstIdx;
-            Block[wstIdx] -= Block[i];
+            Block[wstIdx] -= Process[i];
         }
     }
 
