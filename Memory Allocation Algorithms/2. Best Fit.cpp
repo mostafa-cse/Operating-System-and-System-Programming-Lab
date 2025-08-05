@@ -18,17 +18,17 @@ signed main() {
 
     vector<int> Allocated(_nProcess, -1), Occupied(_nBlock, 0);
     for (int i = 0; i < _nProcess; i++) {
-        int id = _nBlock;
+        int bestID = _nBlock;
         for (int j = 0; j < _nBlock; j++) {
             if (Occupied[j] == 0 and Block[j] >= Process[i]) {
-                if (Block[id] > Block[j]) {
-                    id = j;
+                if (Block[bestID] > Block[j]) {
+                    bestID = j;
                 }
             }
         }
-        if (id != _nBlock) {
-            Allocated[i] = id;
-            Occupied[id] = 1;
+        if (bestID != _nBlock) {
+            Allocated[i] = bestID;
+            Occupied[bestID] = 1;
         }
     }
 
