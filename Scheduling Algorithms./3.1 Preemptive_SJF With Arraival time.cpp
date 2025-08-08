@@ -42,7 +42,7 @@ signed main() {
                 done++;
                 p[idx].complete = time;
                 p[idx].turn = p[idx].complete - p[idx].arrival;
-                p[idx].wait = p[idx].complete - p[idx].burst;
+                p[idx].wait = p[idx].turn - p[idx].burst;
             }
         } else {
             time++;
